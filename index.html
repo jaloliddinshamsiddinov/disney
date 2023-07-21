@@ -4,22 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="..." type="image/x-icon">
+    <link rel="shortcut icon" href="https://seeklogo.com/images/P/playhouse-disney-logo-6374D3D973-seeklogo.com.png"
+        type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>...</title>
+    <title>Disnep</title>
 </head>
 
 <body>
     <div class="wrapper">
 
         <header>
-            <div class="container"></div>
+            <nav class="header-nav">
+                <div class="container header-nav__contaienr"><button>LOG IN</button></div>
+            </nav>
+
+            <div class="header-hero">
+                <div class="container header-hero__container">
+                    <div class="hero-brands">
+
+                        <div class="hero-barand-item">
+                            <img src="./media/img/header/hero_logo.svg" alt="logo">
+                            <button>GET THEM BOTH</button>
+                        </div>
+
+                        <div class="hero-barand-item">
+                            <img src="./media/img/header/hero_logo-2.svg" alt="logo">
+                            <button>GET ALL THREE</button>
+                        </div>
+
+                    </div>
+                    <p class="hero_title-1">All of these and more now streaming.</p>
+                    <p class="hero_title-2">The Disney Bundle Duo Basic includes Disney+ (With Ads) and Hulu (With Ads).
+                        Terms Apply.</p>
+                    <img class="hero_img" src="./media/img/header/brand.svg" alt="logos">
+                    <button class="hero_btn d-block">View All Plan Options</button>
+                </div>
+            </div>
         </header>
 
         <main>
-            <div class="container"></div>
+            <div class="container">
+
+                <div class="main_nav">
+                    <ul class="mian_nav-list">
+                        <li class="main_nav-itme"><a class="main_nav-link" href="#">TRENDING</a></li>
+                        <li class="main_nav-itme"><a class="main_nav-link" href="#">NEW ON DISNEY+</a></li>
+                        <li class="main_nav-itme"><a class="main_nav-link" href="#">COMING SOON</a></li>
+                    </ul>
+                </div>
+
+                <div class="main_streame">
+                    <div class="main_streame-img"><img src="./media/img/main/streaming1.jpg" alt="img"></div>
+                    <div class="main_streame-img"><img src="./media/img/main/streaming2.jpg" alt="img"></div>
+                    <div class="main_streame-img"><img src="./media/img/main/streaming3.jpg" alt="img"></div>
+                    <div class="main_streame-img"><img src="./media/img/main/streaming4.png" alt="img"></div>
+                    <div class="main_streame-img"><img src="./media/img/main/streaming5.png" alt="img"></div>
+                    <div class="main_streame-img"><img src="./media/img/main/streaming6.png" alt="img"></div>
+                </div>
+
+                <div class="main_plans">
+                    <h2 class="main_plans-title">Choose Your Plan</h2>
+                    <p class="main_plans-description">Switch or cancel* anytime.</p>
+                    <div class="main_plans-btn">
+                        <input class="main_plans-inp1" id="inp1" name="radio" type="radio">
+                        <input class="main_plans-inp2" id="inp2" name="radio" type="radio">
+                        <label class="main_plans-label1" for="inp1">Disney Bundle</label>
+                        <label class="main_plans-label2" for="inp2">Disney+</label>
+                    </div>
+                </div>
+            </div>
         </main>
 
     </div>
